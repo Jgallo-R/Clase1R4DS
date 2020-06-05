@@ -56,7 +56,7 @@ git push -u origin master
 
 
 
-Para clonar cualquier repositorio : 
+Para clonar cualquier repositorio. : 
 git clone https://github.com/azchr4ds/Clase1R4DS.git
 
 
