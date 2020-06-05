@@ -72,7 +72,7 @@ help(seq)
 help(rep)
 
 
-# Como tarea deben de aprender a utilizar las funciones rep y seq
+# Como tarea deben de aprender a utilizar las funciones rep y seq.
 
 
 
