@@ -1,0 +1,88 @@
+1er paso : instalar git a partir de 
+git-scm.com
+
+Luego , abrir Git Bash
+
+
+Tener en cuenta el hecho de tener un repositorio local 
+y en algun momento optar por subir nuestro codigo a github.com
+
+Para crear una cuenta : github.com -> Sign Up
+llenamos los campos :
+  user name 
+  Email add
+  Passwd
+  
+  Verificamos que no somos un robot , hasta obtener el check
+  
+  Create Account 
+
+Luego Creo un nuevo repositorio : NO marcar la opcion del readme  y dejar el 
+repositorio publico
+
+Abierto Git Bash , navegamos hasta nuestro directorio de trabajo (creado en 
+rstudio)
+
+ejecuto pwd : consulto cual es el directorio actual 
+
+cd Desktop/Clase1_R4DS : modifico mi directorio actual 
+
+ls : listamos el contenido de nuestro directorio de trabajo 
+
+
+Inicializamos nuestro repositorio local :
+git init 
+
+Agrego los archivos del directorio de trabajo a mi repositorio (vacio)
+git add .
+
+Almacenamos el contenido de la carpeta o directorio de trabajo en el 
+repositorio local :
+git commit -a 
+
+Esto nos pide informacion el correo y usuario : 
+git config --global user.email "azch.r4ds@gmail.com"
+git config --global user.name "azchr4ds"
+
+Luego ya puedo configurar mi repositorio remoto :
+
+git remote add origin https://github.com/azchr4ds/Clase1R4DS.git
+
+* origin : nombre de mi repositorio remoto
+* https://github.com/azchr4ds/Clase1R4DS.git : URL WEB de repositorio
+
+Para subir los datos/archivos de mi ultimo commit local :
+git push -u origin master
+
+
+
+Para clonar cualquier repositorio : 
+git clone https://github.com/azchr4ds/Clase1R4DS.git
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
